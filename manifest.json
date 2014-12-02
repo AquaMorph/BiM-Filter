@@ -2,5 +2,15 @@
     "name":"BiM Filter",
     "version":"1.0.0",
     "manifest_version":2,
-    "description":"Taking the star out of Star Wars"
+    "description":"Taking the star out of Star Wars",
+    "content_scripts": [
+        {
+          "matches": ["http://www.bricksinmotion.com/forums/forum/3/releases/*"],
+          "js": ["jquery.js", "filter.js"]
+        }
+      ],
+     "permissions": [
+        "tabs", "http://www.bricksinmotion.com/*"
+      ]
+    
 }
