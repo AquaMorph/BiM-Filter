@@ -18,7 +18,6 @@ function filter() {
     }
     var percent = IPcount / films.length * 100;
     document.getElementsByClassName('item-info')[0].innerHTML = document.getElementsByClassName('item-info')[0].innerHTML + " Number of IP films hidden " + IPcount + " or " + percent + "%";
-    //window.alert(IPcount + " or " + percent + "%");
 }
 
 filter();

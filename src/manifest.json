@@ -3,17 +3,21 @@
     "version":"1.0.0",
     "manifest_version":2,
     "description":"Taking the star out of Star Wars",
+    "icons": { "32": "img/icon32.png" },
     "content_scripts": [
         {
           "matches": ["http://www.bricksinmotion.com/forums/forum/3/releases/*"],
-          "js": ["jquery.js", "main.js"]
+          "js": ["main.js"]
         }
-      ],
+    ],
     "web_accessible_resources": [
-    "js/filter.js"
-  ],
-     "permissions": [
+        "js/filter.js"
+    ],
+    "permissions": [
         "tabs", "http://www.bricksinmotion.com/*"
-      ]
-    
+    ],
+    "icons": {
+            "16": "img/icon16.png",
+            "48": "img/icon48.png",
+            "128": "img/icon128.png" }
 }
