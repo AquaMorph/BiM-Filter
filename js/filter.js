@@ -1,4 +1,4 @@
-var banned_items_five_ever = [ "star wars", "star trek", "superman", "batman", "far cry", "captain america","gandalf","darth maul","obi wan","groot","james bond","big hero 6","doctor who","dark knight","marvel","deadpool","guardians of the galaxy","seinfeld","darth vadar","anakin skywalker","avengers","dc","bionicle" ]
+var banned_items_five_ever = [ "star wars", "star trek", "superman", "batman", "far cry", "captain america","gandalf","darth maul","obi wan","groot","james bond","big hero 6","doctor who","dark knight","marvel","deadpool","guardians of the galaxy","seinfeld","darth vader","anakin skywalker","avengers","dc","bionicle","justice league","titanfall","green arrow","terminator 2","spider-man","spiderman","interstellar","robin","skyrim","ghostbuster","harry potter","transformers","clone wars","x-men","xmen","yoda","darth","lego jaws","lone ranger","jedi","pirates of the caribbean","teenage mutant ninja turtles","tmnt","thor","indiana jones","ninjago","prince of persia","wonder woman","aquaman","ironman","tony stark","clone trooper","tardis","stormtrooper"]
 
 function filter() {
     var films = document.getElementsByClassName('main-item');
