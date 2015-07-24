@@ -1,8 +1,16 @@
 {
     "name":"BiM Filter",
-    "version":"1.0.0",
+    "version":"1.0.1",
     "manifest_version":2,
     "description":"Taking the star out of Star Wars",
+    "options_ui": {
+        // Required.
+        "page": "options.html",
+        "chrome_style": true
+        // Not recommended; only provided for backwards compatibility,
+        // and will be unsupported in a future version of Chrome (TBD).
+        //"open_in_tab": true
+    },
     "icons": { "32": "img/icon32.png" },
     "content_scripts": [
         {
@@ -14,7 +22,7 @@
         "js/filter.js"
     ],
     "permissions": [
-        "tabs", "http://www.bricksinmotion.com/*"
+        "tabs", "storage", "http://www.bricksinmotion.com/*"
     ],
     "icons": {
             "16": "img/icon16.png",
